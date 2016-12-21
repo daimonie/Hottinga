@@ -1,0 +1,145 @@
+article {
+	padding: 3em; 
+	padding-top: 1em;
+}
+article hr {
+	width: calc(100% - 6em);
+}
+article h1,
+.header_paragraph {
+	font-size: 1em;
+	text-align: center;
+	
+	width: 90%; 
+	color: #222;
+} 
+article div.column {
+	float: left;
+	display: block;
+	padding-top: 2em;
+	position: relative;
+}
+article div.column.left {
+	width: 50%;
+}
+article div.column.right{
+	width: 45%;
+	margin-left: 1em;
+} 
+article h3.left
+{
+	font-size: 1em;
+}
+article h3.right
+{
+	font-size: 1.2em;
+}
+article div.column.left div.box.left
+{
+	display: block;
+	height: 125px;
+	width: 40%;
+	float: left; 
+	margin: 1em;
+}  
+div.column.right .person
+{ 
+}
+div.column .person .face
+{ 
+	width: 130px;
+	height: 130px;
+	float: left;
+}
+div.column .person .inspirational
+{  
+	width: calc(100% - 130px - 3em);
+	padding-left: 2em;
+	float: left;
+}
+div.column .person .inspirational p,
+div.column .person .inspirational h4
+{
+	margin-top: 1em;
+}
+div.column .person .face.elske
+{ 
+	background-image: url(../figures/elske.png);
+}
+div.column .person .face.joop
+{ 
+	background-image: url(../figures/joop.png);
+}
+
+
+article div.column.left .box.green
+{ 
+	width: 40%;
+	height: 1em; 
+	
+	margin-bottom: calc((125px - 1em)/2);
+	margin-top: calc((125px - 1em)/2);
+	
+	border: 3px solid #00a650;
+	background-color: #00a650;
+	
+	text-align: center;
+	 
+	padding: 1em;
+	
+	position: relative;
+	float: left;
+	color: white;
+}
+article div.column.left .box.green a,
+article div.column.left .box.green a:link,
+article div.column.left .box.green a:hover,
+article div.column.left .box.green a:active,
+article div.column.left .box.green a:visited
+{
+	text-decoration: none;
+	color: inherit;
+}
+article div.column.left .box.green .symbol.facebook
+{ 
+	position: relative;
+	display: block;
+	float: left;
+	
+	width: 22px;
+	height: 22px;
+	 
+	background-image: url(../figures/facebook_symbol.png);
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+article div.column.left .box.green:hover
+{
+	padding-top: 1em;
+	background-color: white;
+	color: black;
+}
+article div.column.left .box.green:hover .symbol.facebook
+{
+	background-color: white;
+	background-image: url(../figures/facebook_symbol_invert.png);
+}
+
+.fb-page.fb_iframe_widget
+{
+	position: relative;
+	height: 500px;
+	width: 500px;
+	display: block;
+	clear: none;
+	float: left;
+}
+.facebook_fix
+{
+	position: relative;
+	display: block;
+	float: left;
+	margin-left: calc( (100% - 500px)/2.0);
+	width: 500px;
+	height: 500px; 
+} 

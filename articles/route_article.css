@@ -1,0 +1,45 @@
+article
+{
+	padding: 3em; 
+	padding-top: 1em;
+}
+article hr
+{
+	width: calc(100% - 6em);
+}
+article h1,
+article h2,
+.header_paragraph
+{
+	font-size: 1em;
+	text-align: center;
+	
+	width: 90%; 
+	color: #222;
+} 
+article h2, article h1
+{
+	font-size: 1.3em;
+	color: #222;
+	width: 100%; 
+}
+article h1
+{
+	font-size: 1.3em;
+}
+article h2
+{
+	font-size: 1.15em;
+}
+article h3
+{
+	font-size: 1.0em;
+}
+ 
+article div.left, article div.right
+{
+	display: block;
+	float: left;
+	width: 46%;
+	text-align: center;
+}

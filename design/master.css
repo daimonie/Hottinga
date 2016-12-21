@@ -1,0 +1,293 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+} 
+html {
+	width: 100%;
+	height: 100%;
+	position: relative; 
+}
+body
+{ 
+	background-image: url(../figures/background.png);
+    background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative; 
+	overflow: auto;
+	
+	width: 100%;
+	height: 100%;
+	
+	font-family: Tahoma;
+font-size: 11pt;
+}
+
+#container
+{ 
+	display: block;
+	position: relative; 
+	 
+	left: 20%;
+	right: 20%;
+	top: 0%;	
+	
+	width: 59%;
+	height: 100%;
+	z-index: 1;  
+} 
+
+#container header
+{
+	height: 250px;
+} 
+
+
+#container header div.logo
+{
+	display: block;
+	float: left;
+	width: 245px;
+	height: 143px;
+	 
+	background-image: url(../figures/logo.svg);
+    background-size: 100% auto;
+	background-repeat: no-repeat; 
+	 
+	cursor: pointer;
+}
+
+#container header nav
+{
+	display: block;
+	float: left;
+	
+	width: calc(100% - 265px);
+	margin-left: 10px;
+	
+	background-color: #00a650;
+	
+	color: white; 
+	
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+#container header nav div.one_liner
+{
+	margin: 1em; 
+	font-style: italic;
+}
+#container header nav ol 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+	position: relative;
+	width: 100%; 
+}
+#container header nav ol li
+{
+	display: block;
+	text-align: center;
+	width: calc(100%/5);
+	height: 2em;
+	padding-top: 1em;
+	float: left;
+	cursor: pointer;   
+	text-shadow: 1px 1px 0px black;
+font-size: 16pt;
+}
+#container header nav ol li:hover
+{
+	background-color: #13673b;
+}
+#container header nav ol li.mobile
+{
+display: none;
+}
+#container header nav ol li a,
+#container header nav ol li a:link,
+#container header nav ol li a:active,
+#container header nav ol li a:visited,
+#container header nav ol li a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+
+#container header aside
+{
+	display: block;
+	float: left;
+}
+#container header aside  div.pitch
+{ 
+	display: block;
+	float: left; 
+	 
+    margin-left: .4em;
+	min-width: 200px;
+	
+	width: 30%;
+	height: 70px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border: 3px solid white;
+	padding: 0.3em;
+	box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+}
+#container header aside div.pitch h2
+{
+	text-align: center;
+	font-size: 1em;
+}
+#container header aside div.pitch p
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+#container article
+{
+	position: relative;
+	width: 100%; 
+height: 800px;
+	
+	margin-left: -6%;
+	
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5); 
+	
+	z-index: 3; 
+}
+#container.page_0 article
+{
+height: 1100px;
+}
+#container.page_1 article
+{
+height: 500px;
+}
+#container.page_2 article
+{
+height: 800px;
+}
+#container.page_3 article
+{
+height: 600px;
+}
+#container.page_4 article
+{
+height: 960px;
+}
+#container.page_5 article
+{
+height: 600px;
+}
+#container.page_6 article
+{
+height: 500px;
+}
+/* now it displays correctly..wtf? */
+#container article.footer
+{
+	position: relative;
+	float: left;
+	width: 100%;  
+	margin-left: -6%;
+height: 20vh;
+	
+	background-color: rgba(150, 150, 150, 0.8);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5); 
+	
+	z-index: 3; 
+}
+#container article.footer div.footer_block
+{
+	display: block; 
+	width: calc(24% - 100px);
+	height: 110px;
+	float: left; 
+	padding-left: 100px; 
+	
+	background-image: url(../figures/Icon-13.svg);
+    background-size: 64px auto;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#container article.footer div.footer_block.year 
+{
+	background-image: url(../figures/Icon-13.svg);
+}
+#container article.footer div.footer_block.door 
+{
+	background-image: url(../figures/Icon-12.svg);
+}
+#container article.footer div.footer_block.arrows 
+{
+	background-image: url(../figures/Icon-09.svg);
+}
+#container article.footer div.footer_block.maps 
+{
+	background-image: url(../figures/Icon-11.svg);
+}
+#container article.footer div.footer_line
+{
+	display: block;
+	float: right;
+	width: 50%; 
+	margin-right: 25%;
+	text-align: center; 
+}
+article a,
+article a:link,
+article a:active,
+article a:visited,
+article a:hover
+{
+	cursor: pointer;   
+	text-shadow: 0em 0em .001em black;
+	text-decoration: none;
+	color: inherit;
+}
+article a,
+article a:link,
+article a:active,
+article a:visited
+{
+	cursor: pointer;   
+	text-shadow: 0em 0em .001em black;
+	text-decoration: none; 
+}
+article a:hover
+{
+	color: #003300;
+}
+
+.icon_email
+{  
+	display: inline-block; 
+	width: 1em;
+	height: 1em; 
+	
+	background-image: url(../figures/Icon-06.svg);
+    background-size: 90% 90%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.text_right
+{
+	text-align: right;
+}
+.text_left
+{
+	text-align: left;
+}
+.text_centre
+{
+	text-align: middle;
+}

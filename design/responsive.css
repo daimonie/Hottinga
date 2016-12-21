@@ -1,0 +1,192 @@
+@media screen and (max-device-width: 700px)
+{
+    
+    body
+    {
+      background-image: none;
+    }
+    nav .one_liner
+    {
+     display: none;
+    }
+    
+    #container header div.logo
+    {
+        display: block;
+        width: 30vw;
+        height: 17.51vw;
+        float: left;
+    }
+    #container header nav
+    {
+        width: 70vw;
+        margin: 0px;
+    }
+    #container header nav ol
+    {
+        display: block;
+        width: 70vw;
+        float: left;
+    }
+    #container header nav ol li
+    {
+        width: 19vw; 
+        height: 8vw;
+        padding-top: 2vw;
+        font-size: 5vmin;
+    }
+#container header nav ol li.mobile
+{
+display: block;
+}
+    #container
+    {
+        width: 100vw;
+        left: 0%;
+        right: 0%;
+    }
+    #container header aside
+    {
+        display: none;
+    }
+    #container article
+    {
+        width: 100vw;
+    }
+    #container article hr
+    {
+        width: 100%;
+    }
+    #container.page_0 article .column.left .green
+    {
+        display: none;
+    }
+    #container.page_0 article .column.left .left
+    {
+        width: 80%;
+    }
+    #container.page_0 article div.column.left div.box.left
+    { 
+        height: 25vh;
+        margin: 0;
+        padding-left: 3vw;
+    }
+    #container header
+    {
+        height: 18vw;
+    }
+    #container article.footer 
+    {
+        padding-left: 15vw;
+    }
+    #container article.footer div.footer_block
+    {
+        width: 80vw;
+        height: 10vw;
+        padding-top: 5vw;
+float: none;
+margin-left: -10vw;
+    }
+    
+    #container.page_1 article .float_patch
+    {
+        width: 40vw;
+        height: 10vh;
+        margin-bottom: 5vh;
+    }
+    #container.page_1 article .float_patch .icon
+    {
+        width: 5vw;
+        height: 5vw;
+        margin-left: 17.5vw;
+    }
+    #container.page_2 article div.head
+    {
+        width: 80vw;
+    }
+    #container.page_2 article div.head div.bust
+    {
+        width: 20vw;
+        height: 20vw;
+        padding-bottom: 0px;
+    }
+    #container.page_4 .col.right
+    {
+        display: none;
+    }
+    #container.page_4 ul#upper_info li
+    {
+        width: 40vw;
+    }
+    #container.page_4 .col.left, 
+    #container.page_4 .col.centre,
+    #container.page_4 .col.bottom
+    {
+        width: 99vw;
+    }
+    #container.page_4 .head,
+    #container .col.bottom.info
+    {
+        display: none;
+    }
+    body
+    {
+        font-size: 3.5vmin;
+    }
+    #container article,
+    #container nav,
+    #container,
+    #container header
+    {
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    #container header
+    {
+        width: 94vw;
+    }
+    #container header nav
+    {
+        width: 64vw;
+    }
+#container header nav,
+#container.page_0 article,
+#container.page_1 article,
+#container.page_2 article,
+#container.page_3 article,
+#container.page_4 article,
+#container.page_5 article,
+#container.page_6 article,
+#container article.footer
+{
+height: auto;
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5); 
+}
+#container.page_1 article.middle .float_patch
+{
+height: 30vh; 
+width: 35vw;
+float: left;
+margin: 0px; 
+}
+
+
+
+
+#container header,
+#container article.middle,
+#container article.footer
+{
+width: 100vw;
+margin: 0vw;
+}
+
+#container header nav
+{
+width: 69vw;
+}
+#container.page_0 article .face
+{
+float: none;
+}
+}

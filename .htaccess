@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine on 
+RewriteRule doel/?$ index.php?page=doel [L]
+RewriteRule team/?$ index.php?page=team [L]
+RewriteRule historie/?$ index.php?page=historie [L]
+RewriteRule contact/?$ index.php?page=contact [L]
+RewriteRule cases/?$ index.php?page=cases [L]
+RewriteRule route/?$ index.php?page=route [L] 

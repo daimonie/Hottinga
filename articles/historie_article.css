@@ -1,0 +1,56 @@
+article
+{
+	padding: 3em; 
+	padding-top: 1em;
+}
+article hr
+{
+	width: calc(100% - 6em);
+}
+article h1,
+article h2,
+.header_paragraph
+{
+	font-size: 1em;
+	text-align: center;
+	
+	width: 90%; 
+	color: #222;
+} 
+article h2, article h1
+{
+	font-size: 1.3em;
+	color: #222;
+	width: 100%; 
+}
+article h1
+{
+	font-size: 1.3em;
+}
+article h2
+{
+	font-size: 1.15em;
+}
+article h3
+{
+	font-size: 1.0em;
+}
+
+article div.left, article div.right
+{
+	display: block;
+	float: left;
+	width: 46%;
+	text-align: center;
+}
+article div.right
+{
+	height: 0px;
+	padding-bottom: 65%;
+	margin-left: 5%;
+	background-image: url(../figures/historie_voorgevel.png);
+    background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
